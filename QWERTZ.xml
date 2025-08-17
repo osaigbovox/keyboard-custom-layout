@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="OSAIGBOVO QWERTZ v4.0" script="latin">
+
+  <!-- Row 1 -->
+  <row>
+    <key c="q" nw="1" ne="!"/>
+    <key c="w" nw="2" ne='"' sw="“" se="”"/>
+    <key c="e" nw="3" ne="'" sw="‘" se="’"/>
+    <key c="r" nw="4" ne="%" sw="#"/>
+    <key c="t" nw="5" ne="&amp;"/>
+    <key c="z" nw="6" ne="/" sw="|" se="\"/>
+    <key c="u" nw="7" ne="?"/>
+    <key c="i" nw="8" ne="₦" sw="$"/>
+    <key c="o" nw="9" ne="°" sw="∞" se="∅"/>
+    <key c="p" nw="0" ne="=" sw="≠" se="≈"/>
+    <key c="+" nw="*" ne="-" sw="÷" se=""/>
+  </row>
+
+  <!-- Row 2 -->
+  <row>
+    <key c="loc tab" ne="loc esc"/>
+    <key c="a" nw="'" ne='"' />
+    <key c="s" nw="&lt;" ne="&gt;" />
+    <key c="d" nw="{" ne="}" />
+    <key c="f" nw="(" ne=")" />
+    <key c="g" nw="[" ne="]" />
+    <key c="h" nw="ª"/>
+    <key c="j" nw="º" ne="ı" />
+    <key c="k" nw="@" ne="ˆ" />
+    <key c="l" nw=":" ne=";" />
+    <key c="." nw="^" ne="°" />
+  </row>
+
+  <!-- Row 3 -->
+  <row>
+    <key width="2" c="shift" ne="capslock"/>
+    <key c="y" nw="-" ne="_" sw="." se=","/>
+    <key c="x" nw="∧" ne="∨" sw="–" se="—" />
+    <key c="c" nw="√" ne="∑" />
+    <key c="v" nw="`" ne="´" />
+    <key c="b" nw="β" ne="∫" />
+    <key c="n" nw="~" ne="¬" sw="–" se="—" />
+    <key c="m" nw="_" ne="-" sw="," se="."/>
+    <key width="2" c="backspace" nw="delete" />
+  </row>
+
+  <!-- Modmap -->
+  <modmap>
+    <!-- Shift layer -->
+    <shift a="q" b="Q"/>
+    <shift a="w" b="W"/>
+    <shift a="e" b="E"/>
+    <shift a="r" b="R"/>
+    <shift a="t" b="T"/>
+    <shift a="z" b="Z"/>
+    <shift a="u" b="U"/>
+    <shift a="i" b="I"/>
+    <shift a="o" b="O"/>
+    <shift a="p" b="P"/>
+    <shift a="a" b="A"/>
+    <shift a="s" b="S"/>
+    <shift a="d" b="D"/>
+    <shift a="f" b="F"/>
+    <shift a="g" b="G"/>
+    <shift a="h" b="H"/>
+    <shift a="j" b="J"/>
+    <shift a="k" b="K"/>
+    <shift a="l" b="L"/>
+    <shift a="y" b="Y"/>
+    <shift a="x" b="X"/>
+    <shift a="c" b="C"/>
+    <shift a="v" b="V"/>
+    <shift a="b" b="B"/>
+    <shift a="n" b="N"/>
+    <shift a="m" b="M"/>
+    <shift a="-" b="–"/>
+    <shift a="_" b="—"/>
+
+    <!-- Fn Layer (tuned) -->
+    <!-- Coding / shell -->
+    <fn a="a" b="@"/>
+    <fn a="c" b="cd "/>
+    <fn a="v" b="nvim "/>
+    <fn a="m" b="mkdir "/>
+    <fn a="l" b="ls -la"/>
+    <fn a="r" b="rm -rf "/>
+    <fn a="f" b="find . -name "/>
+    <fn a="e" b="echo "/>
+    <fn a="h" b="history | grep "/>
+
+    <!-- Markdown / writing -->
+    <fn a="`" b="```"/>
+    <fn a="'" b="”"/>
+    <fn a='"' b="“"/>
+    <fn a="[" b="[["/>
+    <fn a="]" b="]]"/>
+    <fn a="(" b="(("/>
+    <fn a=")" b="))"/>
+    <fn a="&lt;" b="&lt;&lt;"/>
+    <fn a="&gt;" b="&gt;&gt;"/>
+    <fn a="." b="…"/>
+    <fn a="," b="„"/>
+    <fn a=";" b="/"/>
+    <fn a=":" b="\/>
+  </modmap>
+</keyboard>
